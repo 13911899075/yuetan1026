@@ -1,9 +1,0 @@
-sdf
-for #1 in dev1.log
-for #2 in dev1.log
-for #3 in dev1.log
-
-
-Add master as protect branch
-
-compare with coding squash
