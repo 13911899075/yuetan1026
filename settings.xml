@@ -9,7 +9,7 @@
             <name>阿里云公共仓库</name>
             <url>https://maven.aliyun.com/repository/public</url>
         </mirror>
-    </mirrors>
+    </mirrors>sdfsdf
     <profiles>
         <profile>
             <id>nexus</id>
