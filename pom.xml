@@ -59,6 +59,16 @@
 							<goal>prepare-agent</goal>
 						</goals>
 					</execution>
+					            </plugin>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.5</version>
+				<executions>
+					<execution>
+						<id>default-prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
 					<execution>
 						<id>default-report</id>
 						<phase>verify</phase>
