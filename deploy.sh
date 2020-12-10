@@ -61,6 +61,9 @@ stop_application() {
       echo -e "\rno java process"
       return
    fi
+   
+   //第四次更新提交代码
+   echo "it's forth time to update commit"
 
    echo "stop java process"
    times=60
