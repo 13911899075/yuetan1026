@@ -24,9 +24,9 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+		<dependency>水电费水电费·
+			<groupId>org.springframework.boot</groupId>似懂非懂舒服
+			<artifactId>spring-boot-starter-web</artifactId>对方的身份
 		</dependency>
 
 		<dependency>
