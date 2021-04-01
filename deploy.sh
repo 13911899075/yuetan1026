@@ -52,6 +52,7 @@ start_application() {
     nohup java -jar ${JAR_NAME} > ${JAVA_OUT} 2>&1 &
     echo "started java process"
 }
+//适用于补充提交测试
 
 stop_application() {
    checkjavapid=`ps -ef | grep java | grep ${APP_NAME} | grep -v grep |grep -v 'deploy.sh'| awk '{print$2}'`
@@ -60,6 +61,9 @@ stop_application() {
       echo -e "\rno java process"
       return
    fi
+   
+   //第四次更新提交代码
+   echo "it's forth time to update commit"
 
    echo "stop java process"
    times=60
